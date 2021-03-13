@@ -1,0 +1,36 @@
+{"1.2.0",
+[{<<"cowboy">>,
+  {git,"git://github.com/extend/cowboy.git",
+       {ref,"3eec447960eb03cde48f0f04cd72fd4d1e548ca0"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"1b5539a1da1d39b110d81b118000f00bbedaf4b4"}},
+  1},
+ {<<"fs">>,{pkg,<<"fs">>,<<"6.1.1">>},1},
+ {<<"jsone">>,
+  {git,"git://github.com/sile/jsone.git",
+       {ref,"56416ee2b05ee66ca7a8454da4fbbd8899bfd18e"}},
+  0},
+ {<<"quickrand">>,
+  {git,"https://github.com/okeuday/quickrand.git",
+       {ref,"c80077162f32c10002219f70e0afadb71e05f88c"}},
+  1},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"3190aef88aea04d6dce8545fe9b4574288903f44"}},
+  1},
+ {<<"sync">>,
+  {git,"git://github.com/rustyio/sync.git",
+       {ref,"7c9367e73b7dbb01a788f8d0120d747330112f6f"}},
+  0},
+ {<<"uuid">>,
+  {git,"git://github.com/okeuday/uuid.git",
+       {ref,"9312cc158a94c76e40c82ca45fd5056fb191c889"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"fs">>, <<"9D147B944D60CFA48A349F12D06C8EE71128F610C90870BDF9A6773206452ED0">>}]},
+{pkg_hash_ext,[
+ {<<"fs">>, <<"EF94E95FFE79916860649FED80AC62B04C322B0BB70F5128144C026B4D171F8B">>}]}
+].
